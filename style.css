@@ -1004,7 +1004,7 @@ footer {
     }
     .container-texto p {
         font-size: 20px;
-        text-align: center;
+        text-align: justify;
     }
     
     /*-------------------------SECTION3-------------------*/
@@ -1043,7 +1043,7 @@ footer {
     }
     
     .container-cards1 {
-        margin-top: 40px;
+        margin-top: 100px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1089,6 +1089,9 @@ footer {
 
     .card figcaption:after {
         left: 18rem;
+    }
+    .card figcaption p {
+        text-align: center;
     }
 
 
