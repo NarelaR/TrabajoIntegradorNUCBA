@@ -1033,7 +1033,7 @@ footer {
         
     }
     .container-in h1 {
-        font-size: 30px;
+        font-size: 27px;
         text-align: center;
         
     }
@@ -1056,7 +1056,7 @@ footer {
         align-items: center;
     }
     .work {
-        left: 15px;
+        position: inherit;
         width: 90%;
     }
     .work h4 {
