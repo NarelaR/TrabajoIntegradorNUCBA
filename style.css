@@ -1030,7 +1030,7 @@ footer {
         margin-top: 200px;
         justify-content: center;
         align-items: center;
-        
+        padding: 20px;
     }
     .container-in h1 {
         font-size: 27px;
@@ -1043,7 +1043,7 @@ footer {
     }
     
     .container-cards1 {
-        margin-top: 130px;
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
         justify-content: center;
