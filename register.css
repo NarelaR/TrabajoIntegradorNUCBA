@@ -109,6 +109,7 @@ body {
     outline: none;
     border: none;
     background-color: #000000;
+    color: #ccc;
     border-bottom: 2px solid rgb(252, 254, 255);
     transition: 0.3s ease-in-out;
 }
