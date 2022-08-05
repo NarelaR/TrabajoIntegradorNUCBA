@@ -27,7 +27,7 @@
 }
 
 body {
-    background-color: #01080c;
+    background-color: #000B11;
 }
 
 /* NAV */
@@ -87,10 +87,10 @@ body {
 .nav-item::after {
     content: "";
     display: block;
-    background-color: rgb(255, 255, 255);
+    background-color: #2F4550;
     width: 90%;
-    margin-top: 1px;
-    height: 2px;
+    margin-top: 3px;
+    height: 3px;
     Clip-path: var(--clipp);
     transition: clip-path .5s;
 }
@@ -143,7 +143,7 @@ body {
     font-size: 30px;
     color: #01080c;
     position: relative;
-    top: 200px;
+    top: 300px;
     font-family: 'BC', sans-serif;
     letter-spacing: 3px;
     margin: 0;
@@ -453,7 +453,7 @@ body {
     box-shadow: 100px 0 #001523, 240px -50px #001523, -240px -100px #001523, -220px -150px #001523, 300px -200px #001523, -150px -300px #001523;
 }
 
-/* SECTION 2 */
+/* ---------------SECTION 2 ---------------*/
 
 .section-2 {
     height: 100%;
@@ -480,15 +480,19 @@ body {
 .container-texto h1 {
     font-family: 'Cormorant SC';
     font-size: 70px;
-    color: #313131;
+    text-shadow: 1px 1px 0px #FFFFFF, 1px 2px 1px rgba(0,0,0,0.15), -16px 4px 2px rgba(47,69,80,0);
+    color: #2F4550;
+    background: #00111C;
     font-weight: bolder;
+    font-family: var(--font-shadows);
+    letter-spacing: 10px;
 }
 
 .container-texto p {
     font-family: 'Ibarra Real Nova';
 }
 
-/* SECTION 3 */
+/* ---------SECTION 3 -------------*/
 
 .section-3 {
     width: 100%;
@@ -498,8 +502,11 @@ body {
 .st-1 {
     display: flex;
     justify-content: center;
-    color: #313131;
-    font-family: 'Cormorant SC';
+    text-shadow: 1px 1px 0px #FFFFFF, 1px 2px 1px rgba(0,0,0,0.15), -16px 4px 2px rgba(47,69,80,0);
+    color: #2F4550;
+    background: #00111C;
+    font-family: var(--font-shadows);
+    letter-spacing: 5px;
     padding: 20px;
     font-size: 30px;
 }
@@ -507,6 +514,7 @@ body {
 .st-1 h1 {
     margin-top: 90px;
     margin-bottom: 60px;
+    
 }
 
 .slider {
@@ -576,7 +584,7 @@ body {
     }
 }
 
-/* SECTION 4 */
+/* -------------SECTION 4 -----------*/
 
 .section-4 {
     background-color: #00111c;
@@ -606,16 +614,20 @@ body {
     align-content: center;
     padding: 30px;
     /* background-color: rgb(255, 234, 234); */
-    margin-top: 200px;
+    margin-top: 0px;
+    
 }
 
 .container-in h1 {
     font-family: var(--font-shadows);
-    color: #292a2a;
+    text-shadow: 1px 1px 0px #FFFFFF, 1px 2px 1px rgba(0,0,0,0.15), -16px 4px 2px rgba(47,69,80,0);
+    color: #2F4550;
+    background: #00111C;
     font-weight: bolder;
     text-decoration: 2px overline solid;
-    font-size: 50px;
-
+    font-size: 60px;
+    margin-bottom: 30px;
+    letter-spacing: 10px;
 }
 
 .container-in p {
@@ -660,7 +672,7 @@ body {
 .work h4 {
     font-family: var(--font-edu1);
     font-size: 35px;
-    color: #313131;
+    color: #2F4550;
 }
 
 .work p {
@@ -669,7 +681,7 @@ body {
 }
 
 
-/* SECTION 5 */
+/* ---------SECTION 5---------- */
 
 .section-5 {
     background-color: #00111c;
@@ -682,8 +694,11 @@ body {
     flex-direction: column;
     align-items: center;
     font-size: 60px;
-    color: #01080c;
-    font-family: var(--font-edu1);
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15), -16px 4px 2px rgba(47,69,80,0);
+    color: #2F4550;
+    background: #00111C;
+    font-family: var(--font-shadows);
+    letter-spacing: 10px;
 }
 
 .containercards {
@@ -719,6 +734,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 60px;
 }
 
 .card figcaption {
@@ -729,9 +745,10 @@ body {
     padding: 25px;
     position: relative;
     width: 100%;
-    background: rgba(0, 0, 0, .4);
-    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    background: #000B11;
+    box-shadow: 0 15px 25px rgba(0, 0.5, 0, .3);
     border-radius: 10px;
+    text-align: center;
 }
 .card figcaption:hover {
     transform: scale(103%);
@@ -744,7 +761,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    color: #313131;
+    color: #2F4550;
 }
 
 .flecha {
@@ -766,7 +783,7 @@ body {
 }
 
 .card h4 {
-    color: #313131;
+    color: #2F4550;
     font-weight: 400;
     letter-spacing: 2px;
 }
@@ -779,7 +796,7 @@ body {
 
 
 
-/* FOOTER */
+/* -----------FOOTER---------------- */
 
 footer {
     border-top: 2px solid rgb(0, 0, 0);
@@ -791,7 +808,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(0, 0, 0);
     width: 20rem;
     height: 20rem;
 }
@@ -806,16 +822,16 @@ footer {
 .dos,
 .tres {
     font-family: var(--font-cormorant);
-    color: #d8e7ff;
+    color: #ffff;
 }
 
 .icons-texto {
     font-size: 30px;
-    color: #313131;
+    color: #2F4550;
 }
 
 #mapa {
-    outline: 5px solid #313131;
+    outline: 5px solid #2F4550;
     width: 300px;
     height: 300px;
 }
@@ -840,7 +856,7 @@ footer {
 
 .logo-footer {
     margin-top: 20px;
-    background-color: #d8e7ff;
+    background-color: #ffff;
     border-radius: 40em;
     height: 7em;
     width: 7em;
@@ -854,19 +870,28 @@ footer {
 
 .footer-about h3 {
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 30px;
     font-family: var(--font-edu2);
-    color: #313131;
+    text-shadow: 1px 1px 1px #FFFFFF, 1px 1px 1px rgba(0,0,0,0.15), -6px 1px 0px rgba(47,69,80,0);
+    color: #2F4550;
+    background: #000B11;
 }
 
-.footer-about p {
+.p1 {
     line-height: 1.9;
     margin-bottom: 20px;
     font-size: 18px;
     font-family: var(--font-ibarra);
-    color: #d8e7ff;
+    color: #FFFFFF;
 }
-
+.p2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: var(--font-ibarra);
+    text-shadow: 1px 1px 1px #FFFFFF, 1px 1px 1px rgba(0,0,0,0.15), -6px 1px 0px rgba(47,69,80,0);
+    color: #2F4550;
+    background: #000B11;
+}
 .icons-footer2 {
     margin-top: 15px;
     border-radius: 60px;
@@ -884,7 +909,7 @@ footer {
 }
 
 .icons-footer2 i:hover {
-    color: #313131;
+    color: #2f4550;
     transform: scale(1.3);
     transition: all 0.3s linear;
 }
@@ -907,7 +932,7 @@ footer {
 
 
 /* ----------Mobile divices------------ */
-@media (max-width: 576px) {
+@media (max-width: 577px) {
     .conteiner {
         width: 100vw;
         height: 100vh;
@@ -969,7 +994,7 @@ footer {
     }
 
     .nav-item {
-        color: #d8e7ff;
+        color: #ffff;
     }
 
 
@@ -1021,7 +1046,7 @@ footer {
 
     .container-texto p {
         font-size: 20px;
-        text-align: justify;
+        text-align: center;
     }
 
     /*-------------------------SECTION3-------------------*/
@@ -1220,7 +1245,7 @@ footer {
     }
 
     .nav-item {
-        color: #d8e7ff;
+        color: #FFFFFF;
     }
 
     /*--------------------section1-----------------------*/
@@ -1276,7 +1301,7 @@ footer {
     }
 
     .st-1 h1 {
-        font-size: 40px;
+        font-size: 30px;
         text-align: center;
     }
 
@@ -1291,16 +1316,15 @@ footer {
     }
 
     .container-in {
-        margin-top: 100px;
-        padding: 0;
+        padding: 10px;
         margin-top: 200px;
         justify-content: center;
         align-items: center;
-
+        margin-bottom: 0;
     }
 
     .container-in h1 {
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
 
     }
@@ -1311,7 +1335,7 @@ footer {
     }
 
     .container-cards1 {
-        margin-top: 130px;
+        margin-top: 100px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1321,9 +1345,14 @@ footer {
     .container-cards2 {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
+    .nosotros h2 {
+        margin-top: 80px;
+        font-size: 50px;
+    }
     .work {
         left: 10px;
         width: 90%;
@@ -1394,15 +1423,19 @@ footer {
     }
 
     .titulo {
-        font-size: 30px;
+        font-size: 30px; 
+        margin-bottom: 100px;
     }
 
     .section-2 h1 {
-        font-size: 30px;
+        font-size: 50px;
+        margin-top: 40px;
     }
-
+    .st-1 {
+        font-size: 25px;
+    }
     .section-2 p {
-        text-align: justify;
+        text-align: center;
         font-size: 20px;
     }
 
@@ -1419,9 +1452,11 @@ footer {
     }
 
     .container-in h1 {
-        font-size: 35px;
+        font-size: 25px;
     }
-
+    .nosotros h2 {
+        font-size: 50px;
+    }
     .container-in p {
         font-size: 20px;
         text-align: center;
@@ -1440,15 +1475,6 @@ footer {
         flex-direction: column;
     }
 
-    .card .profile-image img {
-        height: 100px;
-        left: 17rem;
-    }
-
-    .card figcaption:after {
-        left: 19.5rem;
-    }
-
     .card figcaption p {
         text-align: center;
     }
@@ -1457,6 +1483,9 @@ footer {
         flex-direction: column;
     }
 
+    .logo-footer {
+        font-size: 12px;
+    }
     .footer-about {
         width: 100%;
     }
